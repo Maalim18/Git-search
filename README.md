@@ -1,4 +1,4 @@
-# LA_PIZZERIA
+
 ## Author
 Mohamed Maalim Ali
 ## Description
