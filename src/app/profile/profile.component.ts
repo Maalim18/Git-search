@@ -8,21 +8,7 @@ import { Repos } from '../repos';
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css']
 })
-// export class ProfileComponent implements OnInit {
-//    profile:'any[]';
 
-//   constructor(private profileservice:ProfileService) { 
-//     this.profileservice.getProfileInfo().subscribe(profile =>{
-//       console.log(profile); 
-
-      
-//     })
-//   }
-
-//   ngOnInit(): void {
-//   }
-
-// }
 export class ProfileComponent implements OnInit {
   profile =[];
   repos:Repos;
