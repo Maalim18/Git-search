@@ -11,17 +11,7 @@ export class ProfileService {
   private clientid:'Iv1.8cef7b2971eb1203';
   private clientsecret:'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'
 
-//   constructor( private http:HttpClient) { 
-//     console.log("service is now ready!");
-//     this.username ='Abdisamad100';
-//   }
-//   getProfileInfo(){
-//     return this.http.get("https:api.github.com/users/" + this.username +"?client_id=" + 
-//     this.clientid +"&client_secret" + this.clientsecret) 
-//     // .map( res=> res.json());
-//   }
-  
-// }
+
 constructor(private http: HttpClient) {
   console.log("service is now ready");
  }
